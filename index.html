@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body onload="carregarLivros()">
+  <main>
+    
+    <section id="sec-form">
+      <!-- form -->
+      <form id="form">
+        
+        <div id="form-left">
+          <label for="nomeL">Nome do Livro:</label>
+          <input type="text" placeholder="Digite o nome do Livro" name="nomeL" id="nomeL" required>
+          
+          <label for="nomeA">Nome do Autor:</label>
+          <input type="text" placeholder="Digite o nome do Autor" name="nomeA" id="nomeA" required>
+          
+          <label for="dataP">Data da Publicação do livro:</label>
+          <input type="date" name="dataP" id="dataP" required>
+          
+          <input type="submit" value="Cadastrar livro" id="sub">
+          
+        </div>
+      
+        <div id="form-right">
+          
+          <div id="form-right-up">
+            <img src="assets/Library-rafiki.svg" alt="library.svg" />
+          </div>
+          <div id="form-right-down">
+            
+            <label for="descricao">Descrição:</label>
+            <textarea name="descricao" id="desc"></textarea>
+            
+          </div>
+          
+        </div>
+        
+      </form>
+    </section>
+    
+    <section id="sec-livros">
+      <!-- livros -->
+      <h1>Livros</h1>
+      <div id="area-livros">
+        
+      </div>
+      
+    </section>
+    
+  </main>
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
