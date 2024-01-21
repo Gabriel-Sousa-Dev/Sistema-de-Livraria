@@ -6,3 +6,5 @@ O objetivo desse é projeto é aprender a utilizar o LocalStorage e treinar habi
 - HTML
 - CSS
 - Javascript
+#Creditos
+- [Svg](https://storyset.com/people)
